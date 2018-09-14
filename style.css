@@ -1,0 +1,248 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial, Helvetica, sans-serif;
+	overflow-x: hidden;
+	outline:none;
+}
+ul > li{
+	list-style-type: none;
+} 
+header{
+	width: 100%;
+	height: 95vh;
+	display: table;
+	background: url(../images/dinasour.jpg) no-repeat;
+	background-size: cover;
+}
+.banner{
+	margin: 30px auto;
+	width: 1000px;
+}
+.logo{
+	display: inline-block;
+	width: 20%;
+	float: left;
+	padding-left: 5px;
+
+}
+nav{
+	margin-top: 25px !important;
+	display: inline-block;
+	text-align: right;
+	width: 68%;
+}
+nav > ul > li {
+	display: inline-block;
+	list-style-type: none;
+	text-transform: uppercase;
+	padding-right: 30px;
+}
+nav > ul > li:last-child{
+	padding-right: 0;
+}
+ul>li>a{
+	color: #9691ff;
+	text-decoration: none;
+}
+a:hover{
+color: #002560;
+}
+header > .banner > h1{
+	margin-top: 120px;
+	text-transform:uppercase;
+	width: 300px;
+	text-align: center;
+	border-bottom: 5px solid black;
+    margin-right: 20px;
+}
+main{
+	overflow: hidden;
+}
+.films{
+	margin: 20px auto;
+	overflow: hidden;
+	text-align: center;
+	width: 1000px;
+}
+h2{
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+.film{
+	width: 30%;
+	margin-top: 30px;
+	margin-right: 33px;
+	float: left;
+}
+.film > img{
+	width: 95%;
+	height: 200px;
+}
+.film > h3{
+	text-transform: uppercase;
+}
+.film > p{
+	padding: 20px;
+}
+.musics{
+	margin:10px 0 0 auto;
+	padding-bottom:30px;
+	width: 100%;
+	background:lightgray;
+}
+.songs{
+	margin:0 auto;
+	width:1000px;
+	text-align:center;
+	overflow:hidden;
+}
+.erg{
+	width: 70%;
+	margin-bottom: 30px;
+	float:left;
+}
+.nkar{
+	width:28%;
+	float: right;
+}
+.nkar>img{
+	margin-top:30px;
+	width: 100%;
+	height: 300px;
+}
+.first{
+	width:50%;
+	float:left;
+	margin-bottom:15px;
+}
+.first>h4{
+	text-align:left;
+}
+h4>.fa{
+	margin-right:7px;
+}
+.games>img{
+	width:33.3%;
+	float:left;
+	cursor:pointer;
+	height:300px;
+	transition: all 1.5s linear; 
+}
+.games>img:hover{
+	 transform: scale(-1);
+}
+.nextpart{
+	width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.idk>img{
+	border-radius:50%;
+	width: 55%;
+}
+.idk{
+	margin-right: 3%;
+	width: 22%;
+	float: left;
+}
+h4{
+	text-transform: uppercase;
+	font-weight: unset;
+}
+.nextpart>h2{
+	margin-top: 30px;
+}
+.idk:last-child{
+	margin-right: 0;
+}
+.idk>ul{
+	list-style-type: none;
+	display: table;
+	margin: 0;
+	padding-left: 25%;
+}
+.idk>ul li{
+	display: inline-block;
+}
+.idk>ul li>a{
+	width: 32px;
+	height: 32px;
+	display: block;
+	margin-right: 5px;
+
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #e8ecee;
+	border-radius: 50%;
+}
+.idk>ul li>a:hover{
+	cursor: pointer;
+	background-color: #000000;
+ color: white;
+} 
+.idk>h2{
+	height: 56px;
+}
+.fb{
+	background-color: #365c93;
+	color: white;
+}
+.tw{
+	background-color: #00b8e6;
+	color: white;
+}
+.in{
+	background-color: #007cb0;
+	color: white;
+}
+footer{
+	display:block;
+	width: 100%;
+    background-color: #000000;
+    height: 280px;
+}
+.contact-info{
+	display: inline-block;
+	width: 49%;
+	color: #ffffff;
+}
+.footer-contact{
+	width: 1000px;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+.contact-form{
+	width: 38%;
+	float: right;
+}
+.icons{
+	width: 50%;
+	float: left;
+	margin: 25px 0;
+	font-size: 17px;
+}
+input,textarea{
+	width: 250px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	outline: none;
+}
+input[type="submit"]{
+	width: 190px;
+	background: purple;
+	color: #ffffff;
+	border: 2px solid #000000;
+}
+input[type="submit"]:hover{
+	background: #ffffff;
+	color: purple;
+}
+.icons>a{
+	color: white;
+    text-decoration:none; 
+}
